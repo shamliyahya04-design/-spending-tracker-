@@ -1,5 +1,16 @@
 # 💸 Spending Tracker
+## 📱 Android (APK)
 
+This project also builds as a native Android app via **Capacitor**.
+
+```bash
+npm run build          # generates static export in out/
+npx cap add android    # first time only
+npx cap sync android
+cd android && ./gradlew assembleDebug
+```
+
+Requires: `@capacitor/core`, `@capacitor/cli`, `@capacitor/android`, and `output: 'export'` in `next.config.js`
 A **premium, production-ready personal spending tracker** — beautiful, fast, responsive, accessible, and built to feel like a commercial fintech product. Inspired by the polish of Apple, Linear, Notion, Stripe, and Arc.
 
 > Built with Next.js (App Router), React, TypeScript, Tailwind CSS, Recharts, Zustand, React Hook Form + Zod, Framer Motion, and Lucide.
@@ -8,7 +19,8 @@ A **premium, production-ready personal spending tracker** — beautiful, fast, r
 
 ## ✨ Highlights
 
-- **Premium design system** — glassmorphism, soft shadows, rounded geometry, perfect spacing, light/dark/system themes.
+- **Premium design system**
+- — glassmorphism, soft shadows, rounded geometry, perfect spacing, light/dark/system themes.
 - **Bilingual & RTL** — full **English** and **Arabic** localization with correct right-to-left layout.
 - **Multi-currency** — USD, EUR, GBP, SAR, AED, YER, JPY with locale-aware formatting (adding a currency = one entry).
 - **Realistic demo data** — ~4 months of generated transactions so every chart and table looks alive out of the box.
