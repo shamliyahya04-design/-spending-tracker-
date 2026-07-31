@@ -1,0 +1,6 @@
+{
+  "created": "2026-07-31T14:42:15.994Z",
+  "publicKey": "fd694260a6a2dacc746fc7347a276ebb331d559fc0034e7cbaf1a9f084b3dfaa",
+  "secretKey": "ab02815982982f38ed3ad58d774e9efda5ba345f20bad19e49ae7c01724ceb43fd694260a6a2dacc746fc7347a276ebb331d559fc0034e7cbaf1a9f084b3dfaa",
+  "note": "KEEP SECRET. Whoever holds secretKey can generate license keys for the app."
+}
