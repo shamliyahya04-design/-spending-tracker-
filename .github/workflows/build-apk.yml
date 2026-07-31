@@ -22,9 +22,11 @@ jobs:
             exit 1
           fi
           echo "Structure OK ✓"
-
-      - uses: actions/setup-node@v4
-        with: { node-version: 20, cache: npm }
+          
+- uses: actions/setup-node@v4
+  with:
+    node-versio (أو أي رقم أقل) إلى 20 أو أعلى
+  
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: 17 }
       - uses: android-actions/setup-android@v3
